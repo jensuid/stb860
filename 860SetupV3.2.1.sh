@@ -58,7 +58,7 @@ NEW_APK9191="
  iflix_3.37.0.apk
  VLC_3.2.7.apk
  smartyt_6.17.350.apk
- VidioTV_1.4.2.apk
+ VidioTV_1.16.2.apk
  MX_Player_1.20.8.apk
 ";
 
@@ -71,12 +71,13 @@ v5live.apk
 #aptoid sudah masuk
 # duta film out
 copyApk="
+aptoideTV_5.03.apk
 chrome.work.apk
 cloudTV.apk
 cyberflix_3.2.2.apk
 HBO_GO_7.0.128.apk
 HOOQ_3.13.1.apk
-kidyt.new.apk
+KidsYT_6.17.344.apk
 Kodi_18.5.apk
 Link2SD.apk
 Netflix_latest.apk
@@ -100,7 +101,7 @@ vola_spo_6.2.apk
 SYS_APP="
  Square_Home.apk=com.ss.squarehome2
  SkyRocketFly.apk=com.charon.rocketfly
- QuickSupport_15.1.24.apk=com.teamviewer.quicksupport.market
+ QuickSupport_15.2.41.apk=com.teamviewer.quicksupport.market
  minixpower.apk=com.minix.power_selector
  tinylauncher.apk=com.atomicadd.tinylauncher
 ";
