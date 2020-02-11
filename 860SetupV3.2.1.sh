@@ -640,6 +640,10 @@ doPreparationData(){
 	 else
 	    echo $1 >> $LOGGER
 	 fi
+   # print
+   echo " --------------------"
+   echo " Step : " $1
+   echo " --------------------"
   }
 # step by step setup stb
 # ------STEP 1 --------------------------------------
