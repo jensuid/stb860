@@ -55,9 +55,9 @@ NEW_APK9191="
  Perfect_Player_1.5.8.apk
  Speedtest_4.4.32.apk
  APKPure_3.16.5.apk
- iflix_3.37.0.apk
+ iflix_3.40.1.apk
  VLC_3.2.7.apk
- smartyt_6.17.350.apk
+ smartyt_6.17.371.apk
  VidioTV_1.16.2.apk
  MX_Player_1.20.8.apk
 ";
@@ -71,7 +71,7 @@ v5live.apk
 #aptoid sudah masuk
 # duta film out
 copyApk="
-aptoideTV_5.03.apk
+aptoideTV_5.0.3.apk
 chrome.work.apk
 cloudTV.apk
 cyberflix_3.2.2.apk
@@ -95,6 +95,8 @@ TVPedia.apk
 F21_1.19.apk
 v5live.apk
 vola_spo_6.2.apk
+LiveNetTV_4.7.apk
+redboxtv_v1.4.apk
 ";
 
 # data apk system
@@ -725,6 +727,10 @@ CleaningData(){
   fi
 }
 
+doTimeStamp(){
+   date >> /sdcard/bak/timestamp
+}
+
 Finishing(){
     # check applikasi terinstall
 	# check stage 
@@ -732,6 +738,8 @@ Finishing(){
 	if [ $stage = 3 ]; then
 	   doGrantAllApp
 	   doPatchingApp
+     # buat time stamp
+     doTimeStamp
 	   doSettingDisplay
 	   doDisablePkgPulpstone
 	   setStagePosition 4
