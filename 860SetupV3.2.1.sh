@@ -51,15 +51,15 @@ DEL_APK9191="
 # mnc ganti nama vision
 # next keyword
 NEW_APK9191="
- Vision_4.3.2.apk
+ Vision_4.3.11.apk
  Perfect_Player_1.5.8.apk
- Speedtest_4.4.32.apk
+ Speedtest_4.5.1.apk
  APKPure_3.16.5.apk
  iflix_3.40.1.apk
- VLC_3.2.7.apk
- smartyt_6.17.371.apk
- VidioTV_1.16.2.apk
- MX_Player_1.20.8.apk
+ VLC_3.2.9.apk
+ smartyt_6.17.434.apk
+ VidioTV_1.18.1.apk
+ MX_Player_1.20.9.apk
 ";
 
 #apk yang diinstall awal
@@ -75,14 +75,13 @@ aptoideTV_5.0.3.apk
 chrome.work.apk
 cloudTV.apk
 cyberflix_3.2.2.apk
-HBO_GO_7.0.128.apk
+HBO_GO_7.0.169.apk
 HOOQ_3.13.1.apk
 KidsYT_6.17.344.apk
 Kodi_18.5.apk
 Link2SD.apk
 Netflix_latest.apk
-Octopus_5.3.3.apk
-onnetv.apk
+Octopus_5.3.5.apk
 TVBrowser.apk
 Popcorn_3.6.4.apk
 Titanium_2016.apk
@@ -97,6 +96,7 @@ v5live.apk
 vola_spo_6.2.apk
 LiveNetTV_4.7.apk
 redboxtv_v1.4.apk
+lk21.apk
 ";
 
 # data apk system
