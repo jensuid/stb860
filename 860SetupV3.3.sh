@@ -32,20 +32,16 @@ KODE_AKTIVASI=""
 #apkpure ilang
 #tvku ilang
 DEL_APK9191="
- AA.MNCNow_v3.3.27.apk
  PerfectPlayer_v1.4.8b3.apk
  SpeedtestbyOokla_v4.4.11.apk
- iflix_v3.36.0.apk
  RadioIndonesia_v4.9.13.apk
- SmartYouTubeTV_v6.17.245.apk
+ SmartYouTubeTV_v6.17.419.apk
  VLC_v3.1.7.apk
- VidioTV_v1.13.0.apk
- MXPlayer_v1.16.5.apk
- WowSportsLive_v5.5.apk
+ MXPlayer_v1.21.3.apk
  LeanbackBackgroundChanger_v1.0.apk
- XX1Lite_v1.0.apk
+ Vision+_v4.3.30.apk
  RedBoxTV_v1.4.apk
- AptoideTV_v5.0.2.apk
+ iFlix_v3.42.1.apk
 ";
 
 
@@ -59,8 +55,7 @@ NEW_APK9191="
  APKPure_3.17.5.apk
  iflix_3.43.1.apk
  VLC_3.2.10.apk
- smartyt_6.17.504.apk
- VidioTV_1.19.0.work.apk
+ smartyt_6.17.535.apk
  MX_Player_1.21.5.apk
 ";
 
@@ -73,7 +68,6 @@ v5live.apk
 #aptoid sudah masuk
 # duta film out
 copyApk="
-aptoideTV_5.0.3.apk
 chrome.work.apk
 cloudTV.apk
 cyberflix_3.2.2.apk
@@ -91,13 +85,9 @@ UseeTV_GO_590.apk
 Viki_2.3.6.apk
 Viu_1.0.92.apk
 Radio_Indonesia_4.11.0.apk
-TVPedia.apk
-F21_1.34.apk
 v5live.apk
 vola_spo_6.2.apk
 redboxtv_v1.6.apk
-LiveNetTV_4.7.apk
-lk21.apk
 TVTapPro_2.2.apk
 movielite_1.0.apk
 nordVPN_4.5.3.apk
@@ -296,7 +286,7 @@ doInjectScript(){
   #push script to bin
   #cp $DIR_BAK"setdata/sh/860SetupV3.sh" /system/bin/860
   # temporary
-  cp /sdcard/860SetupV3.2.1.sh /system/bin/860
+  cp /sdcard/860SetupV3.3.sh /system/bin/860
   #set permission
   chmod 755 /system/bin/860
 }

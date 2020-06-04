@@ -32,20 +32,15 @@ KODE_AKTIVASI=""
 #apkpure ilang
 #tvku ilang
 DEL_APK9191="
- AA.MNCNow_v3.3.27.apk
  PerfectPlayer_v1.4.8b3.apk
  SpeedtestbyOokla_v4.4.11.apk
- iflix_v3.36.0.apk
  RadioIndonesia_v4.9.13.apk
- SmartYouTubeTV_v6.17.245.apk
+ SmartYouTubeTV_v6.17.419.apk
  VLC_v3.1.7.apk
- VidioTV_v1.13.0.apk
- MXPlayer_v1.16.5.apk
- WowSportsLive_v5.5.apk
  LeanbackBackgroundChanger_v1.0.apk
- XX1Lite_v1.0.apk
- RedBoxTV_v1.4.apk
- AptoideTV_v5.0.2.apk
+ iFlix_v3.46.apk
+ AptoideTV_v5.0.3.apk
+ VidioTV_v1.22.1.apk
 ";
 
 
@@ -53,15 +48,12 @@ DEL_APK9191="
 # mnc ganti nama vision
 # next keyword
 NEW_APK9191="
- Vision_4.3.45.apk
  Perfect_Player_1.5.8.apk
- Speedtest_4.5.3.apk
- APKPure_3.17.5.apk
+ Speedtest_4.5.6.apk
+ APKPure_3.17.8.apk
  iflix_3.43.1.apk
- VLC_3.2.10.apk
- smartyt_6.17.504.apk
- VidioTV_1.19.0.work.apk
- MX_Player_1.21.5.apk
+ VLC_3.2.11.apk
+ smartyt_6.17.628.apk
 ";
 
 #apk yang diinstall awal
@@ -73,12 +65,10 @@ v5live.apk
 #aptoid sudah masuk
 # duta film out
 copyApk="
-aptoideTV_5.0.3.apk
+AptoideTV_5.1.1.apk
 chrome.work.apk
 cloudTV.apk
 cyberflix_3.2.2.apk
-HBO_GO_7.0.169.apk
-HOOQ_3.13.1.apk
 KidsYT_6.17.344.apk
 Kodi_18.6.apk
 Link2SD.apk
@@ -91,15 +81,11 @@ UseeTV_GO_590.apk
 Viki_2.3.6.apk
 Viu_1.0.92.apk
 Radio_Indonesia_4.11.0.apk
-TVPedia.apk
-F21_1.34.apk
+VidioTV_1.19.0.work.apk
 v5live.apk
 vola_spo_6.2.apk
-redboxtv_v1.6.apk
-LiveNetTV_4.7.apk
-lk21.apk
 TVTapPro_2.2.apk
-movielite_1.0.apk
+freeMovies_3.1.apk
 nordVPN_4.5.3.apk
 NF21_3.3.apk
 ";
@@ -175,6 +161,7 @@ YouTubeKids=com.liskovsoft.videomanager.kids/com.liskovsoft.smartyoutubetv.flavo
 MNCNow=com.zte.iptvclient.android.idmnc/.mvp.splashscreenv2.SplashScreenActivi
 Adaway=org.adaway/.ui.MainActivity
 NF21=id.nf21.rbn1/.activities.Splash
+ESFile=com.estrongs.android.pop.pro/com.estrongs.android.pop.view.FileExplorerActivity
 ";
 
 PKG_TEST="
@@ -283,6 +270,8 @@ doCopyDataSetting(){
   echo "Extract backup app data "
   unzip -q /sdcard/bak/bak.zip -d /sdcard/bak/temp/ 
   
+  rm -rf /sdcard/bak/bak.zip
+  
   #copy data v5 buat cadangan
   cp -r /sdcard/bak/temp/com.eletech.fastv/ /sdcard/bak/setdata/patch/
   #rm /sdcard/bak/bak.zip
@@ -290,13 +279,16 @@ doCopyDataSetting(){
   # copy kode aktivasi ke internal
   mv /sdcard/Download/Kode_Aktivasi.txt $DIR_BAK"stbid/" 
   echo "Kode Aktivasi disimpan"
+  
+  #copy data network wifi
+  cp /sdcard/bak/temp/wpa_supplicant.conf /etc/wifi/
 }
 
 doInjectScript(){
   #push script to bin
   #cp $DIR_BAK"setdata/sh/860SetupV3.sh" /system/bin/860
   # temporary
-  cp /sdcard/860SetupV3.2.1.sh /system/bin/860
+  cp /sdcard/860SetupV3.4.sh /system/bin/860
   #set permission
   chmod 755 /system/bin/860
 }
@@ -642,8 +634,11 @@ doPreparationData(){
    doDelApk9191 
    
    # delete patching file 9191
-   doDelPatching9191
-   
+   # off dulu utk test
+   # doDelPatching9191
+   # uninstall smart youtube lama --- malah ilang ver barunya
+   # pm uninstall --user 0 com.liskovsoft.videomanager
+
    doCopyNewApk9191
    doCopySysApk
    doCopyUserApk
@@ -729,6 +724,10 @@ CleaningData(){
   stage=${ cat $LOGGER }
   if [ $stage -gt 3 ]; then
     echo  "cleaning starting ....."
+	echo "Hapus Live Channel ...."
+	  pm uninstall --user 0 com.google.android.tv
+	  pm uninstall --user 0 by.stari4ek.tvirl
+	  
     if [ -d /sdcard/bak/app/ ]; then
 	    rm -r /sdcard/bak/app/
 	fi
@@ -781,10 +780,17 @@ doDeleteApps(){
    # hapus app helper xx1 dan useetv/
      pm uninstall pulpstone.atv.useetv
 	 pm uninstall pulpstone.atv.xx1lite
+	 pm uninstall pulpstone.atv.dutafilm
    # hapus app drawer
      doUninstallSys "com.atvxperience.appdrawer"
    # hapus tv boot
      doUninstallSys "com.danielgauci.tvboot"
+	 
+	 #hapus android tv / live channnel
+	 echo "Hapus Live Channel ...."
+	  pm uninstall --user 0 com.google.android.tv
+	  pm uninstall --user 0 by.stari4ek.tvirl
+
 }
 
 Finishing(){
@@ -797,6 +803,8 @@ Finishing(){
      # buat time stamp
        doTimeStamp
 	   doSettingDisplay
+	   echo "set logo"
+	   dd if=/sdcard/bak/setdata/logo.asli of=/dev/block/logo
 	   doDisablePkgPulpstone
 	   doDeleteApps
 	   setStagePosition 4
