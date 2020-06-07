@@ -82,6 +82,7 @@ Viki_2.3.6.apk
 Viu_1.0.92.apk
 Radio_Indonesia_4.11.0.apk
 VidioTV_1.19.0.work.apk
+LiveNetTV_4.7.4.apk
 v5live.apk
 vola_spo_6.2.apk
 TVTapPro_2.2.apk
@@ -155,7 +156,7 @@ V5live=com.eletech.fastv/com.cloudtv.anyview.LoadingActivity
 RedboxTV=com.redstream.app/.activities.SplashActivity
 cyberflix=com.cybermedia.cyberflx/com.cybermedia.cyberflix.ui.activity.HomeActivity
 titanium=com.noname.titanium/.ui.activity.HomeActivity
-LiveNetTV=com.lnt.androidnettv/.MainActivity
+LiveNetTV=com.core.lntmobile/.activities.SplashActivity
 SmartYouTube=com.liskovsoft.videomanager/com.liskovsoft.smartyoutubetv.flavors.xwalk.SmartYouTubeTV1080AltActivity
 YouTubeKids=com.liskovsoft.videomanager.kids/com.liskovsoft.smartyoutubetv.flavors.xwalk.SmartYouTubeTV1080AltActivity
 MNCNow=com.zte.iptvclient.android.idmnc/.mvp.splashscreenv2.SplashScreenActivi
