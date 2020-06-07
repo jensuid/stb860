@@ -89,6 +89,8 @@ TVTapPro_2.2.apk
 freeMovies_3.1.apk
 nordVPN_4.5.3.apk
 NF21_3.3.apk
+ZalTV_1.2.5.apk
+mkctv.apk
 ";
 
 # data apk system
