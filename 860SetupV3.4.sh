@@ -161,10 +161,10 @@ titanium=com.noname.titanium/.ui.activity.HomeActivity
 LiveNetTV=com.core.lntmobile/.activities.SplashActivity
 SmartYouTube=com.liskovsoft.videomanager/com.liskovsoft.smartyoutubetv.flavors.xwalk.SmartYouTubeTV1080AltActivity
 YouTubeKids=com.liskovsoft.videomanager.kids/com.liskovsoft.smartyoutubetv.flavors.xwalk.SmartYouTubeTV1080AltActivity
-MNCNow=com.zte.iptvclient.android.idmnc/.mvp.splashscreenv2.SplashScreenActivi
-Adaway=org.adaway/.ui.MainActivity
+MNCNow=com.zte.iptvclient.android.idmnc/.mvp.splashscreenv2.SplashScreenActivity
 NF21=id.nf21.rbn1/.activities.Splash
 ESFile=com.estrongs.android.pop.pro/com.estrongs.android.pop.view.FileExplorerActivity
+mkctv=com.fikrul.mkctv/.presentation.view.activity.StartupActivity
 ";
 
 PKG_TEST="
