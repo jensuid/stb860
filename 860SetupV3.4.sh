@@ -50,7 +50,7 @@ DEL_APK9191="
 NEW_APK9191="
  Perfect_Player_1.5.8.apk
  Speedtest_4.5.6.apk
- APKPure_3.17.8.apk
+ APKPure_3.17.9.apk
  iflix_3.43.1.apk
  VLC_3.2.11.apk
  smartyt_6.17.633.apk
