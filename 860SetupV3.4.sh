@@ -54,7 +54,7 @@ NEW_APK9191="
  APKPure_3.17.9.apk
  iflix_3.43.1.apk
  VLC_3.2.11.apk
- smartyt_6.17.633.apk
+ smartyt_6.17.651.apk
 ";
 
 #apk yang diinstall awal
@@ -919,16 +919,12 @@ mount -o rw,remount /system
 	   "20") clear
 	         echo "   Setup 2 - Install User App"
 			      echo "Set Enable GMS"
-			      doCheckGMS
-				  read p
 			      InstallUserApp
 				  exit
 			 ;;
 	   "30") clear
 	         echo "   Setup 3 - Finishing "
 			      echo " Pastikan GMS enable "
-			      doCheckGMS
-				  read p
 				  echo " Sign in Playstore"
 				  doCheckPS
 				  read p
