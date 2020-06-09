@@ -41,6 +41,7 @@ DEL_APK9191="
  iFlix_v3.46.apk
  AptoideTV_v5.0.3.apk
  VidioTV_v1.22.1.apk
+ LiveNetTV_v4.7.apk
 ";
 
 
