@@ -54,7 +54,7 @@ NEW_APK9191="
  APKPure_3.17.9.apk
  iflix_3.43.1.apk
  VLC_3.2.11.apk
- smartyt_6.17.651.apk
+ smartyt_6.17.685.apk
 ";
 
 #apk yang diinstall awal
