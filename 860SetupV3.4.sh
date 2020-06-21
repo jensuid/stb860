@@ -86,7 +86,7 @@ VidioTV_1.19.0.work.apk
 LiveNetTV_4.7.4.apk
 v5live.apk
 vola_spo_6.2.apk
-tvtap_2.4.apk
+tvtap_2.5.apk
 freeMovies_3.1.apk
 nordVPN_4.5.3.apk
 NF21_3.3.apk
