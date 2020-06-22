@@ -285,7 +285,8 @@ doCopyDataSetting(){
   echo "Kode Aktivasi disimpan"
   
   #copy data network wifi
-  cp /sdcard/bak/temp/wpa_supplicant.conf /etc/wifi/
+  cp /sdcard/bak/temp/wpa_supplicant.conf /data/misc/wifi/
+  chmod 660 /data/misc/wifi/wpa_supplicant.conf
 }
 
 doInjectScript(){
