@@ -36,6 +36,7 @@ DEL_APK9191="
  RadioIndonesia_v4.9.13.apk
  VLC_v3.1.7.apk
  AptoideTV_v5.0.3.apk
+ iFlix_v3.49.0.apk
 ";
 
 
@@ -65,7 +66,7 @@ cyberflix_3.2.2.apk
 KidsYT_6.17.344.apk
 Kodi_18.6.apk
 Link2SD.apk
-Netflix_latest.apk
+netflixTV_7.2.3b.apk
 Octopus_5.3.5.apk
 TVBrowser.apk
 Popcorn_3.6.4.apk
@@ -81,6 +82,7 @@ nordVPN_4.12.5.apk
 NF21_3.3.apk
 ZalTV_1.2.5.apk
 mkctv.apk
+iflix_3.50.0.apk
 ";
 
 # data apk system
