@@ -88,7 +88,6 @@ SYS_APP="
  SquareHome.apk=com.ss.squarehome2
  SkyRocketFly.apk=com.charon.rocketfly
  QuickSupport_15.4.61.apk=com.teamviewer.quicksupport.market
- minixpower.apk=com.minix.power_selector
  tinylauncher.apk=com.atomicadd.tinylauncher
 ";
 
