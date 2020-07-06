@@ -36,6 +36,7 @@ DEL_APK9191="
  RadioIndonesia_v4.9.13.apk
  VLC_v3.1.7.apk
  AptoideTV_v5.0.3.apk
+ iFlix_v3.49.0.apk
 ";
 
 
