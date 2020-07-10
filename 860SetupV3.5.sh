@@ -67,6 +67,7 @@ KidsYT_6.17.344.apk
 Kodi_18.6.apk
 Link2SD.apk
 netflixTV_7.2.3b.apk
+Netflix_latest.apk
 Octopus_5.3.5.apk
 TVBrowser.apk
 Popcorn_3.6.4.apk
