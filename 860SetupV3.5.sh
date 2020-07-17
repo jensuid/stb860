@@ -66,7 +66,6 @@ cyberflix_3.2.2.apk
 KidsYT_6.17.344.apk
 Kodi_18.6.apk
 Link2SD.apk
-netflixTV_7.2.3b.apk
 Netflix_latest.apk
 Octopus_5.3.5.apk
 TVBrowser.apk
@@ -915,10 +914,6 @@ mount -o rw,remount /system
 			 ;;
 	   "30") clear
 	         echo "   Setup 3 - Finishing "
-			      echo " Pastikan GMS enable "
-				  echo " Sign in Playstore"
-				  doCheckPS
-				  read p
 			      Finishing
 	         ;;
 	   "40") clear
