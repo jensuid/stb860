@@ -37,6 +37,7 @@ DEL_APK9191="
  VLC_v3.1.7.apk
  AptoideTV_v5.0.3.apk
  iFlix_v3.49.0.apk
+ SmartYouTubeTV_v6.17.697.apk
 ";
 
 
@@ -48,6 +49,7 @@ NEW_APK9191="
  Speedtest_4.5.6.apk
  APKPure_3.17.9.apk
  VLC_3.2.11.apk
+ smartyt_6.17.702.apk
 ";
 
 #apk yang diinstall awal
