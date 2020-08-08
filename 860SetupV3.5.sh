@@ -46,9 +46,9 @@ DEL_APK9191="
 # next keyword
 NEW_APK9191="
  Perfect_Player_1.5.8.apk
- Speedtest_4.5.6.apk
- APKPure_3.17.9.apk
- VLC_3.2.11.apk
+ Speedtest_4.5.11.apk
+ APKPure_3.17.11.apk
+ VLC_3.2.12.apk
  smartyt_6.17.702.apk
 ";
 
@@ -75,14 +75,14 @@ Popcorn_3.6.4.apk
 Titanium_2016.apk
 UseeTV_GO_590.apk
 Viki_2.3.6.apk
-Viu_1.0.92.apk
-Radio_Indonesia_4.11.0.apk
+Viu_1.0.96.apk
+Radio_Indonesia_4.11.6.apk
 v5live.apk
 tvtap_2.5.apk
 freeMovies_3.1.apk
 nordVPN_4.12.5.apk
 NF21_3.3.apk
-ZalTV_1.2.5.apk
+ZalTV_1.2.7.apk
 mkctv.apk
 ";
 
