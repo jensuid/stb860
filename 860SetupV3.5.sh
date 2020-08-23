@@ -78,7 +78,7 @@ Viu_1.0.96.apk
 Radio_Indonesia_4.11.6.apk
 v5live.apk
 tvtap_2.5.apk
-freeMovies_3.1.apk
+movieXY_1.2.apk
 nordVPN_4.12.5.apk
 NF21_3.3.apk
 ZalTV_1.2.7.apk
