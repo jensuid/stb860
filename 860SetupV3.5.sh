@@ -48,7 +48,7 @@ NEW_APK9191="
  Speedtest_4.5.11.apk
  APKPure_3.17.11.apk
  VLC_3.2.12.apk
- smartyt_6.17.717.apk
+ smartyt_6.17.720.apk
 ";
 
 #apk yang diinstall awal
