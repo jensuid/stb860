@@ -83,6 +83,7 @@ nordVPN_4.12.5.apk
 NF21_3.3.apk
 ZalTV_1.2.7.apk
 mkctv.apk
+ViTV119.apk
 ";
 
 # data apk system
@@ -277,6 +278,9 @@ doCopyDataSetting(){
   #copy data network wifi
   cp /sdcard/bak/temp/wpa_supplicant.conf /data/misc/wifi/
   chmod 660 /data/misc/wifi/wpa_supplicant.conf
+  
+  #copy scrint ganti leanback
+  cp /sdcard/bak/setdata/1 /sdcard/
 }
 
 doInjectScript(){
