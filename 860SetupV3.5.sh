@@ -83,7 +83,7 @@ nordVPN_4.12.5.apk
 NF21_3.3.apk
 ZalTV_1.2.7.apk
 mkctv.apk
-ViTV119.apk
+ViTV_119.apk
 ";
 
 # data apk system
