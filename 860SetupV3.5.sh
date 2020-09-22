@@ -63,7 +63,7 @@ copyApk="
 AptoideTV_5.1.1.apk
 chrome.work.apk
 cloudTV.apk
-cyberflix_3.2.2.apk
+disneyhotstar_mobile.apk
 KidsYT_6.17.344.apk
 Kodi_18.6.apk
 Link2SD.apk
@@ -73,13 +73,12 @@ TVBrowser.apk
 Popcorn_3.6.4.apk
 Titanium_2016.apk
 UseeTV_GO_590.apk
-Viki_2.3.6.apk
+wetv.work.apk
 Viu_1.0.96.apk
 Radio_Indonesia_4.11.6.apk
 v5live.apk
 tvtap_2.5.apk
 movieXY_1.4.apk
-nordVPN_4.12.5.apk
 NF21_3.3.apk
 ZalTV_1.2.7.apk
 mkctv.apk
