@@ -64,7 +64,6 @@ copyApk="
 AptoideTV_5.1.1.apk
 chrome.work.apk
 cloudTV.apk
-disneyhotstar_mobile.apk
 KidsYT_6.17.344.apk
 Kodi_18.6.apk
 Link2SD.apk
