@@ -84,6 +84,7 @@ NF21_3.3.apk
 ZalTV_1.2.7.apk
 mkctv.apk
 ViTV_119.apk
+Disneyplus_4.0.4.apk
 ";
 
 # data apk system
@@ -802,6 +803,10 @@ Finishing(){
      # buat time stamp
        doTimeStamp
 	   doSettingDisplay
+	   
+	 # edit properti ro.product.device
+	   echo "set propeti product.device"
+	   sed -i '/ro.product.device=pulpstone_b860h/ c ro.product.device=p212' /system/build.prop
 	   echo "set logo"
 	   dd if=/sdcard/bak/setdata/logo.asli of=/dev/block/logo
 	   doDisablePkgPulpstone
