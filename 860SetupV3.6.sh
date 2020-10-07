@@ -75,7 +75,6 @@ v5live.apk
 tvtap_2.5.apk
 movieXY_1.4.apk
 NF21_3.3.apk
-ZalTV_1.2.7.apk
 mkctv.apk
 ViTV_119.apk
 Disneyplus_4.0.4.apk
