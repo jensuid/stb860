@@ -79,7 +79,7 @@ ZalTV_1.2.7.apk
 mkctv.apk
 ViTV_119.apk
 Disneyplus_4.0.4.apk
-RadioIndonesia_4.11.6.apk
+Radio_Indonesia_4.11.6.apk
 ";
 
 # data apk system
@@ -778,8 +778,9 @@ doDeleteApps(){
 	 pm uninstall pulpstone.atv.dutafilm
    
    # hapus leanback launcher
+     echo "Hapus Lean Back Launcher"
      pm uninstall --user 0 com.google.android.leanbacklauncher
-   
+     echo "-----------------------"
    # hapus app drawer
      doUninstallSys "com.atvxperience.appdrawer"
    # hapus tv boot
