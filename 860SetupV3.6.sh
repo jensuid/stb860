@@ -36,8 +36,6 @@ DEL_APK9191="
  RadioIndonesia_v4.9.13.apk
  VLC_v3.1.7.apk
  AptoideTV_v5.0.3.apk
- SmartYouTubeTV_v6.17.697.apk
- iFlix_v3.49.0.apk
 ";
 
 
@@ -81,6 +79,7 @@ ZalTV_1.2.7.apk
 mkctv.apk
 ViTV_119.apk
 Disneyplus_4.0.4.apk
+RadioIndonesia_4.11.6.apk
 ";
 
 # data apk system
@@ -777,6 +776,10 @@ doDeleteApps(){
      pm uninstall pulpstone.atv.useetv
 	 pm uninstall pulpstone.atv.xx1lite
 	 pm uninstall pulpstone.atv.dutafilm
+   
+   # hapus leanback launcher
+     pm uninstall --user 0 com.google.android.leanbacklauncher
+   
    # hapus app drawer
      doUninstallSys "com.atvxperience.appdrawer"
    # hapus tv boot
@@ -800,9 +803,6 @@ Finishing(){
        doTimeStamp
 	   doSettingDisplay
 	   
-	 # edit properti ro.product.device
-	   echo "set propeti product.device"
-	   sed -i '/ro.product.device=pulpstone_b860h/ c ro.product.device=p212' /system/build.prop
 	   echo "set logo"
 	   dd if=/sdcard/bak/setdata/logo.asli of=/dev/block/logo
 	   doDisablePkgPulpstone
