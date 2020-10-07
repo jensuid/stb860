@@ -790,6 +790,11 @@ doDeleteApps(){
 	 echo "Hapus Live Channel ...."
 	  pm uninstall --user 0 com.google.android.tv
 	  pm uninstall --user 0 by.stari4ek.tvirl
+	  
+	 # hapus leanback launcher
+     echo "Hapus Lean Back Launcher"
+     pm uninstall --user 0 com.google.android.leanbacklauncher
+     echo "-----------------------"
 
 }
 
