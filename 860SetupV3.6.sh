@@ -36,6 +36,8 @@ DEL_APK9191="
  RadioIndonesia_v4.9.13.apk
  VLC_v3.1.7.apk
  AptoideTV_v5.0.3.apk
+ SmartYouTubeTV_v6.17.724.apk
+ Vola_Sport_v6.6.2.apk
 ";
 
 
@@ -44,8 +46,9 @@ DEL_APK9191="
 # next keyword
 NEW_APK9191="
  Perfect_Player_1.5.8.apk
- APKPure_3.17.11.apk
+ APKPure_3.17.14.apk
  VLC_3.2.12.apk
+ smartyt_6.17.728.apk
 ";
 
 #apk yang diinstall awal
@@ -73,10 +76,10 @@ wetv.work.apk
 Viu_1.0.96.apk
 v5live.apk
 tvtap_2.5.apk
-movieXY_1.4.apk
+vola_6.7.0.apk
+cinehub_2.2.4.apk
 NF21_3.3.apk
 mkctv.apk
-ViTV_119.apk
 Disneyplus_4.0.4.apk
 Radio_Indonesia_4.11.6.apk
 ";
