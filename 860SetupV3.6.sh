@@ -71,7 +71,6 @@ Octopus_5.3.5.apk
 TVBrowser.apk
 Popcorn_3.6.4.apk
 Titanium_2016.apk
-UseeTV_GO_590.apk
 wetv.work.apk
 Viu_1.0.96.apk
 v5live.apk
