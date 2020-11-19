@@ -779,10 +779,10 @@ doDeleteApps(){
    
    # hapus leanback launcher
      echo "Hapus Lean Back Launcher"
-     pm uninstall --user 0 com.google.android.leanbacklauncher
+    # pm uninstall --user 0 com.google.android.leanbacklauncher
      echo "-----------------------"
    # hapus app drawer
-     doUninstallSys "com.atvxperience.appdrawer"
+     #doUninstallSys "com.atvxperience.appdrawer"
    # hapus tv boot
      doUninstallSys "com.danielgauci.tvboot"
 	 
@@ -793,7 +793,7 @@ doDeleteApps(){
 	  
 	 # hapus leanback launcher
      echo "Hapus Lean Back Launcher"
-     pm uninstall --user 0 com.google.android.leanbacklauncher
+    # pm uninstall --user 0 com.google.android.leanbacklauncher
      echo "-----------------------"
 
 }
