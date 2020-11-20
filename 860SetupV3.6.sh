@@ -777,15 +777,7 @@ doDeleteApps(){
 	 pm uninstall pulpstone.atv.xx1lite
 	 pm uninstall pulpstone.atv.dutafilm
    
-   # hapus leanback launcher
-     echo "Hapus Lean Back Launcher"
-    # pm uninstall --user 0 com.google.android.leanbacklauncher
-     echo "-----------------------"
-   # hapus app drawer
-     #doUninstallSys "com.atvxperience.appdrawer"
-   # hapus tv boot
-     doUninstallSys "com.danielgauci.tvboot"
-	 
+   
 	 #hapus android tv / live channnel
 	 echo "Hapus Live Channel ...."
 	  pm uninstall --user 0 com.google.android.tv
@@ -793,7 +785,8 @@ doDeleteApps(){
 	  
 	 # hapus leanback launcher
      echo "Hapus Lean Back Launcher"
-    # pm uninstall --user 0 com.google.android.leanbacklauncher
+      pm uninstall --user 0 com.atvxperience.appdrawer
+      pm uninstall --user 0 com.google.android.leanbacklauncher
      echo "-----------------------"
 
 }
