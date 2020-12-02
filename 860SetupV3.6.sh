@@ -38,6 +38,7 @@ DEL_APK9191="
  AptoideTV_v5.0.3.apk
  SmartYouTubeTV_v6.17.724.apk
  Vola_Sport_v6.7.0.apk
+ BoneSmartTV_v2.1.apk
 ";
 
 
@@ -80,6 +81,7 @@ NF21_3.3.apk
 mkctv.apk
 Disneyplus_4.0.4.apk
 Radio_Indonesia_4.11.6.apk
+boneTV_2.2.apk
 ";
 
 # data apk system
