@@ -39,6 +39,9 @@ DEL_APK9191="
  SmartYouTubeTV_v6.17.724.apk
  Vola_Sport_v6.7.0.apk
  BoneSmartTV_v2.1.apk
+ iFlix_v3.46.apk
+ VidioTV_v1.25.apk
+ MXPlayer_v1.24.6.apk
 ";
 
 
@@ -48,7 +51,7 @@ DEL_APK9191="
 NEW_APK9191="
  Perfect_Player_1.5.8.apk
  APKPure_3.17.14.apk
- VLC_3.2.12.apk
+ VLC_3.3.2.apk
  smartyt_6.17.730.apk
 ";
 
@@ -61,6 +64,7 @@ v5live.apk
 #aptoid sudah masuk
 # duta film out
 copyApk="
+MX_Player_1.31.3.apk
 AptoideTV_5.1.1.apk
 chrome.work.apk
 cloudTV.apk
@@ -68,20 +72,22 @@ KidsYT_6.17.344.apk
 Kodi_18.6.apk
 Link2SD.apk
 Netflix_latest.apk
-Octopus_5.3.5.apk
+Octopus_5.5.3.apk
 TVBrowser.apk
 Popcorn_3.6.4.apk
 Titanium_2016.apk
 wetv.work.apk
-Viu_1.0.96.apk
+Viu_Mobile_1.0.98.apk
 v5live.apk
 tvtap_2.5.apk
 cinehub_2.2.4.apk
 NF21_3.3.apk
 mkctv.apk
 Disneyplus_4.0.4.apk
-Radio_Indonesia_4.11.6.apk
+Radio_Indonesia_4.11.10.apk
 boneTV_2.2.apk
+iflix_3.47.0.apk
+Vidio_1.33.0.apk
 ";
 
 # data apk system
@@ -94,7 +100,7 @@ SYS_APP="
 
 # --- package bawaan yang mau dihapus
 DEL_PKG="
-  NO=com.android.launcher  
+  NO=com.android.launcher  aji
   /system/app/PulpstoneTvLauncher.apk=com.gigi.pulpstonetvlauncher
   /system/app/IPTV.apk=com.itv.android.iptv
   /system/priv-app/LiveTv/LiveTv.apk=com.android.tv
@@ -135,6 +141,7 @@ AptoideTV=cm.aptoidetv.pt/STORAGE
 NF21=id.nf21.rbn1/STORAGE
 NF21=id.nf21.rbn1/LOCATION
 NF21=id.nf21.rbn1/CAMERA
+BoneTV=com.wajabae.bonesmarttv/STORAGE
 ";
 
 #tambahkan youtbe dan yt kids
@@ -151,7 +158,7 @@ titanium=com.noname.titanium/.ui.activity.HomeActivity
 LiveNetTV=com.core.lntmobile/.activities.SplashActivity
 SmartYouTube=com.liskovsoft.videomanager/com.liskovsoft.smartyoutubetv.flavors.xwalk.SmartYouTubeTV1080AltActivity
 YouTubeKids=com.liskovsoft.videomanager.kids/com.liskovsoft.smartyoutubetv.flavors.xwalk.SmartYouTubeTV1080AltActivity
-MNCNow=com.zte.iptvclient.android.idmnc/.mvp.splashscreenv2.SplashScreenActivity
+MNCNow=com.zte.iptvclient.android.idmnc/.ui.splashscreen.SplashScreenActivity
 NF21=id.nf21.rbn1/.activities.Splash
 ESFile=com.estrongs.android.pop.pro/com.estrongs.android.pop.view.FileExplorerActivity
 mkctv=com.fikrul.mkctv/.presentation.view.activity.StartupActivity
