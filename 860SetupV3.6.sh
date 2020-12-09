@@ -100,7 +100,7 @@ SYS_APP="
 
 # --- package bawaan yang mau dihapus
 DEL_PKG="
-  NO=com.android.launcher  aji
+  NO=com.android.launcher
   /system/app/PulpstoneTvLauncher.apk=com.gigi.pulpstonetvlauncher
   /system/app/IPTV.apk=com.itv.android.iptv
   /system/priv-app/LiveTv/LiveTv.apk=com.android.tv
