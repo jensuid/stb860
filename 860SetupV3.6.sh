@@ -87,7 +87,7 @@ Disneyplus_4.0.4.apk
 Radio_Indonesia_4.11.10.apk
 boneTV_2.2.apk
 iflix_3.47.0.apk
-Vidio_1.33.0.apk
+Vidio_1.34.1.apk
 ";
 
 # data apk system
