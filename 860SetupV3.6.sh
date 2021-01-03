@@ -65,7 +65,6 @@ v5live.apk
 # duta film out
 copyApk="
 MX_Player_1.31.3.apk
-AptoideTV_5.1.1.apk
 chrome.work.apk
 cloudTV.apk
 KidsYT_6.17.344.apk
@@ -85,7 +84,6 @@ NF21_3.3.apk
 mkctv.apk
 Disneyplus_4.0.4.apk
 Radio_Indonesia_4.11.10.apk
-boneTV_2.2.apk
 iflix_3.47.0.apk
 Vidio_1.34.1.apk
 ";
