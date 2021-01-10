@@ -42,6 +42,7 @@ DEL_APK9191="
  iFlix_v3.46.apk
  VidioTV_v1.25.apk
  MXPlayer_v1.24.6.apk
+ LiveNetTV_v4.7.4.apk
 ";
 
 
@@ -79,13 +80,14 @@ wetv.work.apk
 Viu_Mobile_1.0.99.apk
 v5live.apk
 tvtap_2.5.apk
-cinehub_2.2.4.apk
+cinehub_2.2.6.apk
 NF21_3.3.apk
 mkctv.apk
 Disneyplus_4.0.4.apk
 Radio_Indonesia_4.11.10.apk
 iflix_3.47.0.apk
 Vidio_1.35.0.apk
+LiveNetTV_4.8.0.apk
 ";
 
 # data apk system
