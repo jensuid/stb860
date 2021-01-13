@@ -66,6 +66,7 @@ v5live.apk
 # duta film out
 copyApk="
 MX_Player_1.31.3.apk
+Speedtest_4.5.28.apk
 chrome.work.apk
 cloudTV.apk
 KidsYT_6.17.344.apk
