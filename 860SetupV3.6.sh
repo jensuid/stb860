@@ -78,7 +78,6 @@ Popcorn_3.6.4.apk
 Titanium_2016.apk
 wetv.work.apk
 Viu_Mobile_1.0.99.apk
-v5live.apk
 tvtap_2.5.apk
 cinehub_2.2.6.apk
 NF21_3.3.apk
