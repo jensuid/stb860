@@ -84,7 +84,6 @@ cinehub_2.2.6.apk
 NF21_3.3.apk
 mkctv.apk
 Disneyplus_4.0.4.apk
-Radio_Indonesia_4.11.10.apk
 iflix_3.47.0.apk
 Vidio_1.35.0.apk
 LiveNetTV_4.8.0.apk
@@ -152,10 +151,10 @@ SquareHome=com.ss.squarehome2/None
 PerfectPlayer=com.niklabs.pp/com.niklabs.perfectplayer.MainActivity
 ZalTV=com.player.zaltv/.presentation.view.activity.StartupActivity
 V5live=com.eletech.fastv/com.cloudtv.anyview.LoadingActivity
-RedboxTV=com.redstream.app/.activities.SplashActivity
+RedboxTV=com.reddish.redbox/.dBrjCyddpvdpw
 cyberflix=com.cybermedia.cyberflx/com.cybermedia.cyberflix.ui.activity.HomeActivity
 titanium=com.noname.titanium/.ui.activity.HomeActivity
-LiveNetTV=com.core.lntmobile/.activities.SplashActivity
+LiveNetTV=com.playnet.androidtv.ads/.dnbCEyoDEEmcy
 SmartYouTube=com.liskovsoft.videomanager/com.liskovsoft.smartyoutubetv.flavors.xwalk.SmartYouTubeTV1080AltActivity
 YouTubeKids=com.liskovsoft.videomanager.kids/com.liskovsoft.smartyoutubetv.flavors.xwalk.SmartYouTubeTV1080AltActivity
 MNCNow=com.zte.iptvclient.android.idmnc/.ui.splashscreen.SplashScreenActivity
@@ -513,6 +512,20 @@ doActionPackage(){
 	   #delete backup data app
 	   #rm -r $DIR_BAK"temp/"$pkg
     done
+ }
+ 
+ doPatchVision(){
+   pkg="com.zte.iptvclient.android.idmnc/.ui.splashscreen.SplashScreenActivity"
+   activity=".ui.splashscreen.SplashScreenActivity"
+     echo "   starting $app : $pkg - $activity"
+	   doOpenCloseApp $pkg $activity
+	   
+	   
+	   # inject private data
+	   echo "   patching ...$app"
+       doCopyAppData $pkg $DIR_BAK
+	   #delete backup data app
+	   #rm -r $DIR_BAK"temp/"$pkg
  }
  
   doGrantPermission(){
@@ -968,10 +981,14 @@ mount -o rw,remount /system
 		"90") echo " Rebooting......"
 	          reboot
 	         ;;
-	   "111") echo " Test "
+	   "111") echo " Delete Bloated "
 	               doDeleteApps
 	          exit 
 	         ;;	 
+		"112") echo "Patching Vision  "
+	               doPatchVision
+	          exit 
+	         ;;	 	 
 	   esac ;
 done
 else
