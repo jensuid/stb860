@@ -893,7 +893,8 @@ Finishing(){
   echo "     [75] Hapus App Pulpstone"
   echo "     [76] Setting Display"
   echo " -------------------------------------------"
-  echo "     [111] Install dan 9191"
+  echo "     [111] Delete Bloate dan leanback"
+  echo "     [112] Vision Patching"
   echo 
   echo
   #read -p " Pilihan anda : " menu
