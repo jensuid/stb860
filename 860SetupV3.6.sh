@@ -515,7 +515,7 @@ doActionPackage(){
  }
  
  doPatchVision(){
-   pkg="com.zte.iptvclient.android.idmnc/.ui.splashscreen.SplashScreenActivity"
+   pkg="com.zte.iptvclient.android.idmnc"
    activity=".ui.splashscreen.SplashScreenActivity"
      echo "   starting $app : $pkg - $activity"
 	   doOpenCloseApp $pkg $activity
