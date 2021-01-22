@@ -43,6 +43,7 @@ DEL_APK9191="
  VidioTV_v1.25.apk
  MXPlayer_v1.24.6.apk
  LiveNetTV_v4.7.4.apk
+ Vision+_v4.4.20.apk
 ";
 
 
