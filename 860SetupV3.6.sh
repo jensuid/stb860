@@ -51,7 +51,7 @@ DEL_APK9191="
 # next keyword
 NEW_APK9191="
  Perfect_Player_1.5.8.apk
- APKPure_3.17.15.apk
+ APKPure_3.17.16.apk
  VLC_3.3.2.apk
  smartyt_6.17.730.apk
 ";
@@ -85,7 +85,7 @@ NF21_3.3.apk
 mkctv.apk
 Disneyplus_4.0.4.apk
 iflix_3.47.0.apk
-Vidio_1.35.0.apk
+Vidio_1.36.5.apk
 LiveNetTV_4.8.0.apk
 ";
 
