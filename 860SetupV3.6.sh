@@ -43,6 +43,7 @@ DEL_APK9191="
  VidioTV_v1.25.apk
  MXPlayer_v1.24.6.apk
  LiveNetTV_v4.7.4.apk
+ RedBoxTV_v1.9.apk
 ";
 
 
@@ -50,9 +51,9 @@ DEL_APK9191="
 # mnc ganti nama vision
 # next keyword
 NEW_APK9191="
- Perfect_Player_1.5.8.apk
- APKPure_3.17.16.apk
- VLC_3.3.2.apk
+ Perfect_Player_1.5.9.2.apk
+ APKPure_3.17.17.apk
+ VLC_3.3.4.apk
  smartyt_6.17.730.apk
 ";
 
@@ -65,28 +66,29 @@ v5live.apk
 #aptoid sudah masuk
 # duta film out
 copyApk="
-MX_Player_1.31.3.apk
-Speedtest_4.5.28.apk
+MX_Player_1.34.5.apk
+Speedtest_4.5.32.apk
 chrome.work.apk
 cloudTV.apk
 KidsYT_6.17.344.apk
 Kodi_18.6.apk
 Link2SD.apk
 Netflix_latest.apk
-Octopus_5.5.3.apk
+Octopus_6.0.7.apk
 TVBrowser.apk
 Popcorn_3.6.4.apk
 Titanium_2016.apk
-wetv.work.apk
+WeTV_1.4.0.4.apk
 Viu_Mobile_1.0.99.apk
-tvtap_2.5.apk
+tvtapfirestick3.1.apk
 cinehub_2.2.6.apk
 NF21_3.3.apk
-mkctv.apk
+MkctvGo.apk
 Disneyplus_4.0.4.apk
 iflix_3.47.0.apk
-Vidio_1.36.5.apk
-LiveNetTV_4.8.0.apk
+Vidio_1.39.1.apk
+LiveNetTV_4.8.2.apk
+redboxtv_2.1.apk
 ";
 
 # data apk system
