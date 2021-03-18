@@ -35,10 +35,9 @@ DEL_APK9191="
  SpeedtestbyOokla_v4.4.11.apk
  RadioIndonesia_v4.9.13.apk
  VLC_v3.1.7.apk
- AptoideTV_v5.0.3.apk
  SmartYouTubeTV_v6.17.724.apk
  Vola_Sport_v6.7.0.apk
- BoneSmartTV_v2.1.apk
+ BoneSmartTV_v2.2.apk
  iFlix_v3.46.apk
  VidioTV_v1.25.apk
  MXPlayer_v1.24.6.apk
