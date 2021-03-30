@@ -73,12 +73,12 @@ KidsYT_6.17.344.apk
 Kodi_18.6.apk
 Link2SD.apk
 Netflix_latest.apk
-Octopus_6.0.7.apk
+Octopus_6.1.3.apk
 TVBrowser.apk
 Popcorn_3.6.4.apk
 Titanium_2016.apk
 WeTV_1.4.0.4.apk
-Viu_Mobile_1.0.99.apk
+Viu_1.1.2.apk
 tvtapfirestick3.1.apk
 cinehub_2.2.6.apk
 NF21_3.3.apk
