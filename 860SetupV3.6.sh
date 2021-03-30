@@ -817,6 +817,7 @@ doDeleteApps(){
 Finishing(){
     # check applikasi terinstall
 	# check stage 
+	mount -o rw,remount /system
 	stage=${ cat $LOGGER }
 	if [ $stage = 3 ]; then
 	   doGrantAllApp
