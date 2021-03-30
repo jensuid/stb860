@@ -51,7 +51,7 @@ DEL_APK9191="
 # next keyword
 NEW_APK9191="
  Perfect_Player_1.5.9.2.apk
- APKPure_3.17.17.apk
+ APKPure_3.17.18.apk
  VLC_3.3.4.apk
  smartyt_6.17.730.apk
 ";
