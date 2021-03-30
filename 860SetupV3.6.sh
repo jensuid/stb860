@@ -88,6 +88,7 @@ iflix_3.47.0.apk
 Vidio_1.39.1.apk
 LiveNetTV_4.8.2.apk
 redboxtv_2.1.apk
+Vission_6.3.4.apk
 ";
 
 # data apk system
