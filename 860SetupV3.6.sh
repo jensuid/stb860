@@ -43,6 +43,7 @@ DEL_APK9191="
  MXPlayer_v1.24.6.apk
  LiveNetTV_v4.7.4.apk
  RedBoxTV_v1.9.apk
+ Vision+_v4.4.20.apk
 ";
 
 
@@ -51,7 +52,7 @@ DEL_APK9191="
 # next keyword
 NEW_APK9191="
  Perfect_Player_1.5.9.2.apk
- APKPure_3.17.18.apk
+ APKPure_3.17.17.apk
  VLC_3.3.4.apk
  smartyt_6.17.730.apk
 ";
