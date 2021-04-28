@@ -52,7 +52,7 @@ DEL_APK9191="
 # next keyword
 NEW_APK9191="
  Perfect_Player_1.5.9.2.apk
- APKPure_3.17.17.apk
+ APKPure_3.17.19.apk
  VLC_3.3.4.apk
  smartyt_6.17.730.apk
 ";
@@ -66,12 +66,11 @@ v5live.apk
 #aptoid sudah masuk
 # duta film out
 copyApk="
-MX_Player_1.34.5.apk
-Speedtest_4.5.32.apk
+MX_Player_1.35.8.apk
+Speedtest_4.5.34.apk
 chrome.work.apk
 cloudTV.apk
 KidsYT_6.17.344.apk
-Kodi_18.6.apk
 Link2SD.apk
 Netflix_latest.apk
 Octopus_6.1.3.apk
@@ -79,14 +78,13 @@ TVBrowser.apk
 Popcorn_3.6.4.apk
 Titanium_2016.apk
 WeTV_1.4.0.4.apk
+iqiy.apk
 Viu_1.1.2.apk
 tvtapfirestick3.1.apk
-cinehub_2.2.6.apk
-NF21_3.3.apk
 MkctvGo.apk
 Disneyplus_4.0.4.apk
 iflix_3.47.0.apk
-Vidio_1.39.1.apk
+Vidio_1.41.1.apk
 LiveNetTV_4.8.2.apk
 redboxtv_2.1.apk
 Vision_6.3.4.apk
