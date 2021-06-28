@@ -66,15 +66,18 @@ v5live.apk
 #aptoid sudah masuk
 # duta film out
 copyApk="
+Perfect_Player_1.5.9.2.apk
+ APKPure_3.17.21.apk
+ VLC_3.3.4.apk
+ smartyt_6.17.739.apk
+ Netflix TV2.7.apk
 MX_Player_1.35.8.apk
 Speedtest_4.5.34.apk
 chrome.work.apk
 cloudTV.apk
 KidsYT_6.17.344.apk
 Link2SD.apk
-Netflix_latest.apk
 Octopus_6.1.3.apk
-TVBrowser.apk
 Popcorn_3.6.4.apk
 Titanium_2016.apk
 WeTV_1.4.0.4.apk
