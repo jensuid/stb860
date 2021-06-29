@@ -67,30 +67,28 @@ v5live.apk
 # duta film out
 copyApk="
 Perfect_Player_1.5.9.2.apk
- APKPure_3.17.21.apk
+ APKPure_3.17.22.apk
  VLC_3.3.4.apk
  smartyt_6.17.739.apk
- Netflix TV2.7.apk
-MX_Player_1.35.8.apk
+ NetflixTV2.7.apk
+MX_Player_1.36.11.apk
 Speedtest_4.5.34.apk
 chrome.work.apk
-cloudTV.apk
 KidsYT_6.17.344.apk
 Link2SD.apk
 Octopus_6.1.3.apk
-Popcorn_3.6.4.apk
-Titanium_2016.apk
+popcorntime.apk
 WeTV_1.4.0.4.apk
-iqiy.apk
+iQIY_5.5.0.apk
 Viu_1.1.2.apk
 tvtapfirestick3.1.apk
-MkctvGo.apk
+LiveTVGO_1.0.3.apk
 Disneyplus_4.0.4.apk
 iflix_3.47.0.apk
 Vidio_1.41.1.apk
-LiveNetTV_4.8.2.apk
 redboxtv_2.1.apk
 Vision_6.3.4.apk
+Radio_Indonesia_4.11.20.apk
 ";
 
 # data apk system
