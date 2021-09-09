@@ -1,0 +1,15 @@
+#!/system/bin/sh
+
+echo " un root ridak bisa root lagi"
+mount -o rw,remount /
+mkdir /system/oldxbin/
+cp /system/xbin/* /system/oldxbin/
+rm /system/xbin/*
+
+mv /system/lib/libsupol.so /system/lib/oldlibsupol.so
+echo "rebooting ..."
+reboot
+
+
+
+

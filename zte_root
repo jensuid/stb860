@@ -1,0 +1,13 @@
+#!/system/bin/sh
+
+echo "try re rooting"
+mount -o rw,remount /
+cp /system/oldxbin/* /system/xbin/
+
+mv /system/lib/oldlibsupol.so /system/lib/libsupol.so
+echo "rebooting ..."
+reboot
+
+
+
+

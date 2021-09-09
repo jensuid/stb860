@@ -1,0 +1,25 @@
+#!/system/bin/sh
+
+echo "enable Mola TV"
+pm enable com.molatvbox.public
+echo " disable aplikasi perlu akses root"
+pm disable --user 0 org.adaway
+pm disable --user 0 ru.littlevictor.powermenu
+pm disable --user 0 com.buak.Link2SD
+echo " processing .."
+pm list package -d 
+sleep 2
+echo " hapus akses root"
+echo " untuk aktifkan akses root harus flashing ulang "
+mount -o rw,remount /
+mkdir /system/oldxbin/
+cp /system/xbin/* /system/oldxbin/
+rm /system/xbin/*
+
+mv /system/lib/libsupol.so /system/lib/oldlibsupol.so
+echo "rebooting ..."
+
+
+
+
+
