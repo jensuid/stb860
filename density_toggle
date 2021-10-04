@@ -1,0 +1,46 @@
+#!/system/bin/sh
+
+#merubah density layar toggle
+#dari 240 ke 320 atau 320 ke 240
+clear
+echo
+echo
+echo "          Merubah Densitas Layar"
+echo "          -----------------------------"
+echo
+
+if [ $USER = "root" ];
+then
+mount -o rw,remount /vendor
+#property
+space=".          ."
+prop_lcd="ro.sf.lcd_density"
+go_240="          Densitas layar dirubah ke 240 tampilan lebih kecil"
+go_320="          Densitas layar dirubah ke 320 tampilan lebih besar"
+density=$(getprop $prop_lcd)
+
+echo "          Densitas layar saat ini :  "$density
+echo "          -------------------------------"
+if [ $density = "240" ];
+  then
+      echo "          Densitas layar dirubah ke 320 tampilan lebih besar"
+	  sed -i 's/ro.sf.lcd_density=240/ro.sf.lcd_density=320/' /vendor/build.prop
+  else
+      echo "          Densitas layar dirubah ke 240 tampilan lebih kecil"
+	  sed -i 's/ro.sf.lcd_density=320/ro.sf.lcd_density=240/' /vendor/build.prop
+fi
+echo
+echo "                Done "
+echo "                rebooting ......"
+reboot
+
+else
+   echo "          lakukan comnand  su terlebih dulu dan ijinkan bila ada pop up "
+   echo "          --------------------- selesai tanpa proses -------------------"
+fi
+
+
+
+
+
+
