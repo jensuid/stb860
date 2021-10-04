@@ -1,0 +1,40 @@
+#!/system/bin/sh
+
+clear
+echo
+echo
+echo "               Tool Bantu STB"
+echo "----------------------------------------------------"
+echo
+echo
+#dowload file 
+if [ $USER = "root" ];
+then
+echo "           Tunggu sedang downloading file ..."
+wget -q -O /sdcard/v5_density  https://bit.ly/v5_density
+#wget -q -O /sdcard/tmp_mola/molaTV.apks https://bit.ly/molazte-pkg
+#wget -q -O /sdcard/tmp_mola/unroot https://bit.ly/molatv-on
+echo "           downlad selesai "
+echo
+#install to bin
+mount -o rw,remount /
+cp /sdcard/v5_density /system/bin/333
+chmod 755 /system/bin/333
+
+#hapus source
+rm /sdcard/v5_density
+
+#running sh
+/system/bin/333
+
+else
+    echo " --------------- Tidak dapat diproses --------------"
+	echo
+	echo "          lakukan command su lebih dulu dan "
+	echo "          ijinkan bila ada pop up permintaan ijin "
+	echo 
+	echo "          silakan ulangi lagi ...."
+fi
+
+
+
