@@ -4,5 +4,5 @@
 
 wget -O /data/local/tmp/aapt bit.ly/ambil-aapt-arm-9
 
-chmod 0755 /data/local/tmp/appt
+chmod 0755 /data/local/tmp/aapt
 echo "done install aapt"
