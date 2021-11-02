@@ -1,0 +1,10 @@
+#! /system/bin/sh
+
+#script install netflix tv 812
+
+# donwload apk
+wget -O /data/local/tmp/netflixTV_812.apk bit.ly/ambil_netflixtv_812
+
+#check apk nya
+pm install /data/local/tmp/netflixTV_812.apk
+# install 
