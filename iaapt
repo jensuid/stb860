@@ -1,0 +1,7 @@
+#! /system/bin/sh
+
+#install appt to data/local/tmp
+
+wget -O /data/local/tmp/aapt bit.ly/ambil-aapt-arm-pie
+
+chmod 0755 /data/local/tmp/appt
