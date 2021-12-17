@@ -1,0 +1,48 @@
+#! /system/bin/sh
+
+#script install apk from url
+#url passing via arg $1
+
+#check aapt exit in system
+aapt_test=0
+if [[ -s /system/bin/aapt ]] || [[ -s /data/local/tmp/aapt ]]; then
+aapt_test=1
+else
+  #download aapt
+  echo "Proses grab aapt ...."
+  wget -O /data/local/tmp/aapt bit.ly/ambil-aapt-arm-9
+  chmod 0755 /data/local/tmp/aapt
+ # export PATH=$PATH:/data/local/tmp/:
+fi
+
+url=bit.ly/apk_molatv
+# baiknya dicheck link exist gak
+wget --spider $url
+if [[ $? -eq 0 ]]; then 
+# download file
+file=$(mktemp -u)
+wget -O $file $url
+else
+  echo "Link $url  tidak ada"
+  echo "Periksa kembali penulisan link dan ulangi lagi"
+  exit 1
+fi
+#check package 
+pkg=$(/data/local/tmp/aapt d badging $file | awk -F"'" '/package: name=/{print $2}')
+#echo " pkg : $pkg"
+exist=${#$(pm list package | grep "$pkg")}
+echo "exist : $exist"
+# if exist uninstall
+if [[  $exist -ne 0 ]]; then
+   echo "Aplikasi sudah terinstall "
+   echo "Proses uinstall ..." 
+   pm uninstall $pkg
+fi
+
+#install apk
+   echo "Proses install ...."
+   pm install $file
+
+#clean up
+rm $file
+echo "Proses selesai"
