@@ -35,5 +35,5 @@ fi
    pm install $file
 
 #clean up
-[[ -n $file ]] && rm $file
+#[[ -n $file ]] && rm $file
 echo "Proses selesai"
