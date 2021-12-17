@@ -9,7 +9,7 @@ wget --spider $url
 if [[ $? -eq 0 ]]; then 
 # download file
 #file=$(mktemp -u)
-file=/sdcard/Download/temp_apkmola
+file=/sdcard/Download/temp_molatv.apk
 wget -O $file $url
 else
   echo "Link $url  tidak ada"
